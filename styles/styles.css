@@ -1,14 +1,60 @@
+:root {
+  --main-txt-cl: #212121;
+  --main-txt-font: 'Roboto';
+  --main-backgrd-cl: #2F303A
+
+}
+body {
+  font-family: var(--main-txt-font)
+  font-size: 14px;
+  color: var(--main-txt-cl);
+}
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+.list {
+  list-style: none;
+}
+.blu-txt {
+color: #2196F3;
+}
+
+/*header*/
 .header {
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
+
 }
-.header-link {
-  font-style: normal;
+.header-nav {
+  
+}
+.logo-link {
   font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  color: #2196f3;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--main-txt-cl)
 }
+.header-list{
+
+}
+.header-list-item {
+
+}
+
+/*Main content*/
+
+
+.hero {
+
+}
+
+.hero-title {
+
+}
+
+.hero-button {
+  
+}
+
+
+
