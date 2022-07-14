@@ -25,6 +25,7 @@ body {
 }
 .link {
   text-decoration: none;
+  color: currentColor;
 }
 .list {
   list-style: none;
@@ -39,6 +40,7 @@ body {
 }
 
 .header-nav {
+  color: var(--black-txt-cl);
 }
 
 .logo-link {
@@ -56,10 +58,8 @@ body {
 .nav-list {
 }
 .nav-item {
-  color: var(--black-txt-cl);
 }
 .nav-link {
-  color: var(--black-txt-cl);
 }
 .current {
   color: var(--accent-txt-cl);
@@ -77,7 +77,6 @@ body {
 .contact-item {
 }
 .contact-link {
-  color: inherit;
 }
 
 /*Main content*/
@@ -98,21 +97,20 @@ body {
 
 .hero-button {
   font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
   background: var(--main-bg-btn-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
+  letter-spacing: 0.06em;
+  color: var(--white-txt-cl);
 }
 .hero-button:hover {
   background: var(--bg-btn-cl);
-  border-radius: 4px;
 }
-.hero-btn-txt {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  color: #ffffff;
-}
+.hero-btn-txt 
 
 /*Преимущества*/
 
@@ -124,6 +122,7 @@ body {
 
 .advantades-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
   color: var(--black-txt-cl);
@@ -202,7 +201,6 @@ body {
 }
 
 .adress-link {
-  color: inherit;
 }
 .adress-link[target='_blank'] {
   color: #ffffff;
@@ -225,6 +223,12 @@ body {
 }
 
 .projects-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
   background: var(--grey-bg-cl);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -236,10 +240,6 @@ body {
   color: #ffffff;
 }
 .project-btn-txt {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(26 / 16);
-  text-align: center;
 }
 .portfolio-list {
 }
@@ -255,6 +255,4 @@ body {
 .portfolio-article {
   font-size: 16px;
   line-height: calc(30 / 16);
-  letter-spacing: 0.03em;
-  color: var(--main-txt-cl);
 }
